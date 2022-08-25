@@ -29,7 +29,7 @@ const Header = () => {
 
                 <div className='mx-auto md:mr-[105px]'>
                     <img className='hidden md:block md:max-w-[350px]' src={person} alt="person" />
-                    <img className='md:hidden' src={person1} alt="person" />
+                    <img className='mx-auto md:hidden' src={person1} alt="person" />
                 </div>
             </div>
         </header>
