@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@layer base {
+    .my-text-white {
+        @apply font-serif font-light text-[#FFFFFF]
+    }
+    .my-text-grey {
+        @apply font-serif font-light text-[#2D2D2D]
+    }
+    .my-text-grey-bold {
+        @apply font-serif font-bold  text-[#2D2D2D]
+    }
+    .my-text-grey-italic {
+        @apply font-serif italic font-light text-[#2D2D2D]
+    }
+}
