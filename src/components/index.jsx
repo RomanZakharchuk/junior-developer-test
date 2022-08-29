@@ -9,3 +9,4 @@ export * from './MainGraphs/MainGraphs';
 export * from './MainPartners/MainPartners';
 export * from './MainVideo/MainVideo';
 export * from './GraphComponent/GraphComponent';
+export * from './CommentComponent/CommentComponent';
