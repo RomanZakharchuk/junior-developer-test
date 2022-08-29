@@ -1,11 +1,11 @@
-import { MainAbout1, MainAbout2, MainComments, MainForm, MainGraph, MainPartners, MainVideo } from '../../components';
+import { MainAbout1, MainAbout2, MainComments, MainForm, MainGraphs, MainPartners, MainVideo } from '../../components';
 
 const Main = () => {
     return (
         <main>
             <MainAbout1 />
             <MainVideo />
-            <MainGraph />
+            <MainGraphs />
             <MainAbout2 />
             <MainComments />
             <MainPartners />

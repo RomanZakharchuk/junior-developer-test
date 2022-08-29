@@ -12,9 +12,9 @@ const MainVideo = () => {
                         className="w-full max-w-[394px] md:max-w-[920px] h-[248px] md:h-[517px] mx-auto"
                         src={src}
                         title="YouTube video player"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
+                        allowFullScreen
                     ></iframe>
                 </div>
             </div>
